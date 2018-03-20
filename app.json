@@ -2,12 +2,13 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/menu/menuList"
+    "pages/menu/menuList",
+    "pages/dialog/dialog"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "ct&bb海外代购",
+    "navigationBarTitleText": "曹慢慢(海外代购)",
     "navigationBarTextStyle": "black"
   }
 }

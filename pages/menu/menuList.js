@@ -1,4 +1,5 @@
 // pages/menu/menuList.js
+var app = getApp();
 Page({
 
   /**
@@ -7,6 +8,9 @@ Page({
   data: {
   
   },
+  aaa: function () {
+    app. powerDrawer();
+  },
 
   /**
    * 生命周期函数--监听页面加载
@@ -14,6 +18,7 @@ Page({
   onLoad: function (options) {
   
   },
+ 
 
   /**
    * 生命周期函数--监听页面初次渲染完成
