@@ -19,17 +19,10 @@
  flex-wrap: wrap;
  justify-content: space-between;
 }
-.section_body view{
- width: 100px;
- height: 80px;
- background-color: blanchedalmond;
- margin-bottom: 5px;
- margin-left: 3px;
- margin-right: 3px;
-}
 .subbar{
   position: fixed;
   bottom: 0;
+ 
 
 }
 .subbarBody{
@@ -42,4 +35,14 @@
 .subbarBody button{
   margin-right: 10px;
  
+}
+.section_item{
+ width: 150px;
+ height: 80px;
+ background-color: blanchedalmond;
+ margin-bottom: 5px;
+ margin-left: 3px;
+ margin-right: 3px;
+ border: solid 2px;
+ border-color: 	#BCEE68;
 }

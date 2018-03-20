@@ -1,27 +1,35 @@
 <!--pages/menu/menuList.wxml-->
 <scroll-view class='menuList'>
-<!--分类 口红系列 -->
-<view class="section">
-  <view class='section_head'>
-     <image src='../images/menu6.png' style='height:50px;'></image> 
+  <!--分类 口红系列 -->
+  <view class="section">
+    <view class='section_head'>
+      <image src='../images/menu6.png' style='height:50px;'></image>
+    </view>
+    <view class='section_body'>
+      <view class='section_item'>
+        <view>香奈儿</view>
+        <view><label>￥</label><text>228</text></view>
+        <view>共:<input type='text' value='0'></input><label>件</label><slider bindchange="slider4change" min="1" max="10" show-value/></view>
+        <view>拼单:<input type='text' value='0'></input><label>支</label><slider bindchange="slider4change" min="1" max="10" show-value/></view>
+      </view>
+
+    </view>
   </view>
-  <view class='section_body'>
-    <view>香奈儿</view>
-    <view>杰克琼斯</view>
-    <view>阿玛尼</view>
-    <view>迪奥</view>
+
+
+  <view class='subbar'>
+    <view class='subbarBody'>
+      <view>
+        <button style='width:150px;background-color: #C1FFC1;'>预定</button>
+      </view>
+      <view>
+        <button style='width:150px; background-color: #FFEBCD;'>再想想</button>
+      </view>
+    </view>
+
+
+
   </view>
-</view>
-
-<view class='subbar'> 
-<view class='subbarBody'>
-<view><button style='width:150px;background-color: #C1FFC1;'>预定</button></view>
-<view><button style='width:150px; background-color: #FFEBCD;'>再想想</button></view>
-</view>
-
-
-
-</view>
 
 
 </scroll-view>
