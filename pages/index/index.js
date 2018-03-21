@@ -14,6 +14,7 @@ Page({
     wx.navigateTo({
       url: '../menu/menuList'
     })
+    
   },
   onLoad: function () {
     if (app.globalData.userInfo) {

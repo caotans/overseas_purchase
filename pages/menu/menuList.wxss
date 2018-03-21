@@ -1,4 +1,7 @@
 /* pages/menu/menuList.wxss */
+.menuList{
+
+}
 
 .section {
   height: 100%;
@@ -15,12 +18,13 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 
 .section_item {
   width: 160px;
-  height: 320px;
-  margin-bottom: 5px;
+  height: 220px;
+  margin-bottom: 15px;
   margin-left: 3px;
   margin-right: 3px;
   border: solid 1px;
@@ -70,23 +74,169 @@
   color: #000;
   display: flex;
   justify-content: space-between;
+  padding: 5px;
 }
 
 /*按钮*/
 
 .subbar {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
   margin-top: 20px;
+  
 }
+/*button*/
+.btn { 
+ width: 100%;
+ height: 30px;
+ padding: 10px; 
+ font: 18px "microsoft yahei"; 
+ text-align: center; 
+ border: 1px solid #E8E8EA; 
+ color: #3CC51F; 
+ margin-left: 5px;
+ margin-right: 5px;
+ background-color: 	#E0FFFF;
 
-.subbarBody {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
+} 
+.btn_me { 
+ width: 100%;
+ height: 30px;
+ padding: 10px; 
+ font: 18px "microsoft yahei"; 
+ text-align: center; 
+ border: 1px solid #E8E8EA; 
+ color: #3CC51F; 
+ margin-left: 5px;
+margin-right: 5px;
+ background-color: 	#FFE4E1;
+} 
+
+/*模态化窗口 start*/
+
+  
+/*mask*/
+.drawer_screen { 
+ width: 100%; 
+ height: 100%; 
+ position: fixed; 
+ top: 0; 
+ left: 0; 
+ z-index: 1000; 
+ background: #000; 
+ opacity: 0.5; 
+ overflow: hidden; 
+} 
+  
+/*content*/
+.drawer_box { 
+ width: 650rpx; 
+ overflow: hidden; 
+ position: fixed; 
+ top: 5%; 
+ left: 0; 
+ z-index: 1001; 
+ background: #FAFAFA; 
+ margin:0 50rpx 0 50rpx; 
+ border-radius: 3px; 
+} 
+  
+.drawer_title{ 
+ padding:15px; 
+ font: 20px "microsoft yahei"; 
+ text-align: center; 
+} 
+.drawer_content { 
+ height: 360px; 
+ overflow-y: scroll; /*超出父盒子高度可滚动*/
+} 
+  
+.btn_ok{ 
+  width: 250rpx;
+ padding: 10px; 
+ font: 18px "microsoft yahei"; 
+ text-align: center; 
+ border-top: 1px solid #E8E8EA; 
+ color: #3CC51F; 
+ margin-left: 5px;
+ background-color: 	#E0FFFF;
+ border-radius: 20rpx;
+
+} 
+.btn_cancel{ 
+  width: 250rpx;
+ padding: 10px; 
+ font: 18px "microsoft yahei"; 
+ text-align: center; 
+ border-top: 1px solid #E8E8EA; 
+ color: #CD2626; 
+ margin-right: 5px;
+ background-color: 	#FFE4E1;
+ border-radius: 20rpx;
+} 
+  
+.top{ 
+ padding-top:8px; 
+} 
+.bottom { 
+ padding-bottom:8px; 
+} 
+.title { 
+ height: 30px; 
+ line-height: 30px; 
+ width: 160rpx; 
+ text-align: center; 
+ display: inline-block; 
+ font: 300 28rpx/30px "microsoft yahei"; 
+} 
+  
+.input_base { 
+ border: 2rpx solid #ccc; 
+ padding-left: 10rpx; 
+ margin-right: 50rpx; 
+} 
+.input_h30{ 
+ height: 30px; 
+ line-height: 30px; 
+} 
+.input_h60{ 
+ height: 60px; 
+} 
+.input_view{ 
+ font: 12px "microsoft yahei"; 
+ background: #fff; 
+ color:#000; 
+ line-height: 30px; 
+} 
+  
+input { 
+ font: 12px "microsoft yahei"; 
+ background: #fff; 
+ color:#000 ; 
+} 
+radio{ 
+ margin-right: 20px; 
+} 
+.grid { display: -webkit-box; display: box; } 
+.col-0 {-webkit-box-flex:0;box-flex:0;} 
+.col-1 {-webkit-box-flex:1;box-flex:1;} 
+.fl { float: left;} 
+.fr { float: right;}
+/*模态化窗口 end*/
+
+/*产品明细*/
+.section_item2 {
+  width: 600rpx;
+  height: 340px;
+  margin-bottom: 5px;
+  margin-left: 3px;
+  margin-right: 3px;
+  border: solid 1px;
+  border-color: #ddd;
+  padding: 5px;
 }
-
-.subbarBody button {
-  margin: 0 30px 0 30px;
+.section_item2 image {
+  width: 600rpx;
+  height: 150px;
 }

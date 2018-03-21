@@ -1,127 +1,50 @@
-<!--pages/menu/menuList.wxml-->
-<scroll-view class='menuList'>
+<view class='menuList'>
   <form>
 
     <view class='section_head'>
       <image src='../images/menu6.png' style='width:100%;height:50px;'></image>
     </view>
     <view class='section_body'>
+    <!--一件商品start-->
       <view class='section_item'>
-        <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1521560864960&di=0b8d8a2bfbff0460b62ffa8e0f52a0d5&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F011fd959af638ba8012028a9a78b05.jpg%401280w_1l_2o_100sh.jpg' class='image_size'></image>
+        <image bindtap="powerDrawer" data-statu="open" src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1521560864960&di=0b8d8a2bfbff0460b62ffa8e0f52a0d5&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F011fd959af638ba8012028a9a78b05.jpg%401280w_1l_2o_100sh.jpg'
+          class='image_size'></image>
         <view class='product_name'>圣罗兰口红</view>
         <view class='product_info'>"圣罗兰口红撒发射点发射点发射点士大夫"</view>
-        <view class='product_price'>
-          <label>$</label>345</view>
-        <view class='total_count'>
-          <view>
-            <icon type="success" size="10" /> 数量
-            <label>1</label>
-            <label>件</label>
-          </view>
-          <view>
-            <icon type="warn" size="10" /> 库存
-            <label>30</label>
-            <label>片</label>
-          </view>
-
-         <button bindtap='aaa'>3333343</button>
-        </view>
-        <view>
-          <slider block-size='20' class='product_slider' min='1' max='20' step='1'></slider>
-        </view>
-        <view>
-          <slider block-size='20' class='product_slider' min='1' max='20' step='1'></slider>
-        </view>
       </view>
+    <!--一件商品end-->
 
+    
+ <!--一件商品start-->
       <view class='section_item'>
-        <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1521560864960&di=0b8d8a2bfbff0460b62ffa8e0f52a0d5&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F011fd959af638ba8012028a9a78b05.jpg%401280w_1l_2o_100sh.jpg' class='image_size'></image>
+        <image bindtap="powerDrawer" data-statu="open" src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1521560864960&di=0b8d8a2bfbff0460b62ffa8e0f52a0d5&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F011fd959af638ba8012028a9a78b05.jpg%401280w_1l_2o_100sh.jpg'
+          class='image_size'></image>
         <view class='product_name'>圣罗兰口红</view>
         <view class='product_info'>"圣罗兰口红撒发射点发射点发射点士大夫"</view>
-        <view class='product_price'>
-          <label>$</label>345</view>
-        <view class='total_count'>
-          <view>
-            <icon type="success" size="10" /> 数量
-            <label>1</label>
-            <label>件</label>
-          </view>
-          <view>
-            <icon type="warn" size="10" /> 库存
-            <label>30</label>
-            <label>片</label>
-          </view>
-
-
-        </view>
-        <view>
-          <slider block-size='20' class='product_slider' min='1' max='20' step='1'></slider>
-        </view>
-        <view>
-          <slider block-size='20' class='product_slider' min='1' max='20' step='1'></slider>
-        </view>
       </view>
-
-
-
-       <view class='section_item'>
-        <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1521560864960&di=0b8d8a2bfbff0460b62ffa8e0f52a0d5&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F011fd959af638ba8012028a9a78b05.jpg%401280w_1l_2o_100sh.jpg' class='image_size'></image>
+    <!--一件商品end-->
+     <!--一件商品start-->
+      <view class='section_item'>
+        <image bindtap="powerDrawer" data-statu="open" src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1521560864960&di=0b8d8a2bfbff0460b62ffa8e0f52a0d5&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F011fd959af638ba8012028a9a78b05.jpg%401280w_1l_2o_100sh.jpg'
+          class='image_size'></image>
         <view class='product_name'>圣罗兰口红</view>
         <view class='product_info'>"圣罗兰口红撒发射点发射点发射点士大夫"</view>
-        <view class='product_price'>
-          <label>$</label>345</view>
-        <view class='total_count'>
-          <view>
-            <icon type="success" size="10" /> 数量
-            <label>1</label>
-            <label>件</label>
-          </view>
-          <view>
-            <icon type="warn" size="10" /> 库存
-            <label>30</label>
-            <label>片</label>
-          </view>
-
-
-        </view>
-        <view>
-          <slider block-size='20' class='product_slider' min='1' max='20' step='1'></slider>
-        </view>
-        <view>
-          <slider block-size='20' class='product_slider' min='1' max='20' step='1'></slider>
-        </view>
       </view>
-
-       <view class='section_item'>
-        <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1521560864960&di=0b8d8a2bfbff0460b62ffa8e0f52a0d5&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F011fd959af638ba8012028a9a78b05.jpg%401280w_1l_2o_100sh.jpg' class='image_size'></image>
+    <!--一件商品end-->
+     <!--一件商品start-->
+      <view class='section_item'>
+        <image bindtap="powerDrawer" data-statu="open" src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1521560864960&di=0b8d8a2bfbff0460b62ffa8e0f52a0d5&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F011fd959af638ba8012028a9a78b05.jpg%401280w_1l_2o_100sh.jpg'
+          class='image_size'></image>
         <view class='product_name'>圣罗兰口红</view>
         <view class='product_info'>"圣罗兰口红撒发射点发射点发射点士大夫"</view>
-        <view class='product_price'>
-          <label>$</label>345</view>
-        <view class='total_count'>
-          <view>
-            <icon type="success" size="10" /> 数量
-            <label>1</label>
-            <label>件</label>
-          </view>
-          <view>
-            <icon type="warn" size="10" /> 库存
-            <label>30</label>
-            <label>片</label>
-          </view>
-
-
-        </view>
-        <view>
-          <slider block-size='20' class='product_slider' min='1' max='20' step='1'></slider>
-        </view>
-        <view>
-          <slider block-size='20' class='product_slider' min='1' max='20' step='1'></slider>
-        </view>
       </view>
+    <!--一件商品end-->
+    
 
 
-      
+
+
+
 
 
 
@@ -141,17 +64,73 @@
 
 
     <view class='subbar'>
-      <view class='subbarBody'>
-        <view>
-          <button style='width:150px;background-color: #C1FFC1;'>预定</button>
-        </view>
-        <view>
-          <button style='width:150px; background-color: #FFEBCD;'>再想想</button>
-        </view>
-      </view>
+      <view class="btn" bindtap='submit'>立即预定</view>
+      <view class="btn_me" bindtap='myOrder'>我的订单</view>
     </view>
 
   </form>
 
 
-</scroll-view>
+  <!--模态化窗口-->
+
+  <!--mask-->
+  <view class="drawer_screen" bindtap="powerDrawer" data-statu="close" wx:if="{{showModalStatus}}"></view>
+  <!--content-->
+  <!--使用animation属性指定需要执行的动画-->
+  <view animation="{{animationData}}" class="drawer_box" wx:if="{{showModalStatus}}">
+
+    <!--drawer content-->
+    <view class="drawer_title">圣罗兰口红</view>
+    <view class="drawer_content">
+      <!--产品明细 start-->
+      <view class='section_item'>
+        <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1521560864960&di=0b8d8a2bfbff0460b62ffa8e0f52a0d5&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F011fd959af638ba8012028a9a78b05.jpg%401280w_1l_2o_100sh.jpg' class='image_size'></image>
+        <view class='product_name'>圣罗兰口红</view>
+        <view class='product_info'>"圣罗兰口红撒发射点发射点发射点士大夫"</view>
+        <view class='product_price'>
+          <label>$</label>345</view>
+        <view class='total_count'>
+          <view>
+            <icon type="success" size="10" />数量
+            <label>1</label>
+            <label>件</label>
+          </view>
+          <view>
+            <icon type="warn" size="10" /> 库存
+            <label>30</label>
+            <label>片</label>
+          </view>
+
+
+        </view>
+        <view>
+          <slider block-size='20' block-color='#666666' class='product_slider' min='1' max='20' step='1'></slider>
+        </view>
+        <view class='total_count'>
+          <view>
+            <icon type="success" size="10" />拼单数量
+            <label>1</label>
+            <label>片</label>
+          </view>
+          <view>
+            <icon type="warn" size="10" /> 拼单库存
+            <label>30</label>
+            <label>片</label>
+          </view>
+
+
+        </view>
+        <view>
+          <slider block-size='20' block-color='#666666' class='product_slider' min='1' max='20' step='1'></slider>
+        </view>
+      </view>
+      <!--产品明细 end -->
+    </view>
+    <view class="btn_ok fl" bindtap="powerDrawer" data-statu="close">确定</view>
+    <view class="btn_cancel fr" bindtap="powerDrawer" data-statu="close">取消</view>
+  </view>
+
+
+</view>
+
+
